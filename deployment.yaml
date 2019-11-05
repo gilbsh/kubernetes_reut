@@ -1,9 +1,7 @@
-nginx-deployment.yaml
-----------------------------
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment-test
+  name: rm-nginx-deployment
 spec:
   selector:
     matchLabels:
